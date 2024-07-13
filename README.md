@@ -1,1 +1,1 @@
-# genericplatformerdemo
+# Generic Platformer Demo
