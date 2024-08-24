@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center">
     <p><a href="https://datadecay.itch.io">For the full game go here.</a> <a href="https://github.com/DataDecay/game/blob/main/package.unitypackage">For the package go here.</a></p>
-    <canvas id="unity-canvas" style="width: 100%; background: url('Build/webgl.jpg') center / cover"></canvas>
+    <canvas id="unity-canvas" style="width: 80%; background: url('Build/webgl.jpg') center / cover"></canvas>
     <script src="Build/webgl.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
@@ -18,7 +18,7 @@
         companyName: "Happy Square Productions",
         productName: "Generic Platformer",
         productVersion: "1.0.0.2",
-        matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
